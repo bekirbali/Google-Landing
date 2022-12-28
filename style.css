@@ -93,6 +93,7 @@ header a {
 
 .search .search-bar {
   padding: 20px 0 0;
+  position: relative;
 }
 
 .image {
@@ -160,7 +161,7 @@ form {
 }
 
 .search .search-bar #search {
-  padding: 3px 40px 3px 50px;
+  padding: 3px 29px 3px 38px;
   min-width: 33vw;
   height: 42px;
   border-radius: 25px;
@@ -177,6 +178,22 @@ form {
 
 .search p a {
   color: #000080;
+}
+
+.search-bar .magnifier {
+  width: 30px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -5px;
+}
+
+.search-bar .microphone {
+  width: 14px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
 }
 
 footer {
